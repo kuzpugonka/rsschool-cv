@@ -1,6 +1,6 @@
 ```<h1>Hello,World!</h1>```
 # Iliasova Sofia Alekseevna 
-![own photo](./for-cv.png)
+![own photo](./for-cv.jpg)
 
 ##  Contacts
 Telegram https://t.me/kuzpugonka
