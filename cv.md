@@ -4,7 +4,7 @@
 
 ##  Contacts
 Telegram https://t.me/kuzpugonka
-Discord 
+[Discord](https://discord.com/users/kuzpugonka)
 Email kuzpugonka@xmail.ru
 
 ## About me
