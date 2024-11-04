@@ -96,7 +96,7 @@ svg {
   fill: currentColor;
 }
 .wrap {
-  width: 763px;  
+  width: 763px;
   margin: 80px auto;
   box-shadow: 50px 30px 40px 0 rgba(0, 0, 0, 0.25);
   background: var(--content-bg);
@@ -121,6 +121,7 @@ svg {
   min-width: 242px;
   aspect-ratio: 1 / 1;
   font-size: 0;
+  background-color: var(--aside-bg);
 }
 .header__info {
   display: flex;
@@ -250,7 +251,7 @@ svg {
   letter-spacing: -0.05em;
   text-transform: capitalize;
 }
-.content__projects{
+.content__projects {
   padding-top: 16px;
 }
 .content__projects-list {
@@ -260,12 +261,11 @@ svg {
   flex-direction: column;
 }
 .project {
-
 }
 .project__title {
   font-weight: 500;
 }
-.project__title_regular  {
+.project__title_regular {
   font-weight: 400;
 }
 .project__title::before {
@@ -285,7 +285,7 @@ svg {
   font-weight: 500;
 }
 .content__language-item {
-letter-spacing: -0.05em;
+  letter-spacing: -0.05em;
 }
 
 .footer {
@@ -298,5 +298,5 @@ letter-spacing: -0.05em;
   align-items: center;
 }
 .footer__rss-link img {
- max-height: 24px;
+  max-height: 24px;
 }
