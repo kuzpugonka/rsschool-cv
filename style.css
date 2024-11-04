@@ -287,3 +287,16 @@ svg {
 .content__language-item {
 letter-spacing: -0.05em;
 }
+
+.footer {
+  margin: 60px auto;
+  padding: 0 22px;
+  width: 763px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__rss-link img {
+ max-height: 24px;
+}
