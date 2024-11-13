@@ -76,52 +76,54 @@
       </header>
       <main class="main">
         <aside class="bar">
-          <ul class="bar__contacts" id="contacts">
-            <li>
-              <a class="bar__contact">
-                <img
-                  class="bar__contact-img"
-                  src="./img/github.svg"
-                  alt="github"
-                  aria-label="github"
-                />
-                kuzpugonka
-              </a>
-            </li>
-            <li>
-              <a class="bar__contact">
-                <img
-                  class="bar__contact-img"
-                  src="./img/email.svg"
-                  alt="github"
-                  aria-label="github"
-                />
-                kuzpugonka@xmail.ru
-              </a>
-            </li>
-            <li>
-              <a class="bar__contact">
-                <img
-                  class="bar__contact-img"
-                  src="./img/tg.svg"
-                  alt="github"
-                  aria-label="github"
-                />
-                kuzpugonka
-              </a>
-            </li>
-            <li>
-              <a class="bar__contact">
-                <img
-                  class="bar__contact-img"
-                  src="./img/discord.svg"
-                  alt="github"
-                  aria-label="github"
-                />
-                kuzpugonka
-              </a>
-            </li>
-          </ul>
+          <div class="bar__contacts" id="contacts">
+            <ul>
+              <li>
+                <a class="bar__contact">
+                  <img
+                    class="bar__contact-img"
+                    src="./img/github.svg"
+                    alt="github"
+                    aria-label="github"
+                  />
+                  kuzpugonka
+                </a>
+              </li>
+              <li>
+                <a class="bar__contact">
+                  <img
+                    class="bar__contact-img"
+                    src="./img/email.svg"
+                    alt="github"
+                    aria-label="github"
+                  />
+                  kuzpugonka@xmail.ru
+                </a>
+              </li>
+              <li>
+                <a class="bar__contact">
+                  <img
+                    class="bar__contact-img"
+                    src="./img/tg.svg"
+                    alt="github"
+                    aria-label="github"
+                  />
+                  kuzpugonka
+                </a>
+              </li>
+              <li>
+                <a class="bar__contact">
+                  <img
+                    class="bar__contact-img"
+                    src="./img/discord.svg"
+                    alt="github"
+                    aria-label="github"
+                  />
+                  kuzpugonka
+                </a>
+              </li>
+            </ul>
+          </div>
           <div class="bar__education" id="education">
             <h2 class="bar__education-title title">EDUCATION</h2>
             <svg
@@ -210,6 +212,16 @@
               </li>
 
               <li class="bar__scill">
+                <label class="bar__scills-label" for="Figma">Git&GitHub</label>
+                <progress
+                  class="bar__scill-progress"
+                  id="Git"
+                  value="70"
+                  max="100"
+                ></progress>
+              </li>
+
+              <li class="bar__scill">
                 <label class="bar__scills-label" for="Figma">Figma</label>
                 <progress
                   class="bar__scill-progress"
@@ -217,6 +229,48 @@
                   value="80"
                   max="100"
                 ></progress>
+              </li>
+            </ul>
+          </div>
+          <div class="bar__language" id="language">
+            <h2 class="bar__language-title title">Language</h2>
+            <svg
+              width="74"
+              height="4"
+              viewBox="0 0 74 4"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="74" height="4" rx="2" fill="currentColor" />
+            </svg>
+
+            <ul class="bar__language-info">
+              <li class="bar__language-item">
+                <p class="bar__language-name">Russian</p>
+                <svg
+                  width="2"
+                  height="14"
+                  viewBox="0 0 2 14"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="2" height="14" fill="currentColor" />
+                </svg>
+                <p class="bar__language-lvl">Native</p>
+              </li>
+
+              <li class="bar__language-item">
+                <p class="bar__language-name">English</p>
+                <svg
+                  width="2"
+                  height="14"
+                  viewBox="0 0 2 14"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="2" height="14" fill="currentColor" />
+                </svg>
+                <p class="bar__language-lvl">level A1</p>
               </li>
             </ul>
           </div>
@@ -366,49 +420,6 @@
                 </a>
               </article>
             </div>
-          </div>
-
-          <div class="content__language" id="language">
-            <h2 class="content__language-title title">Language</h2>
-            <svg
-              width="74"
-              height="4"
-              viewBox="0 0 74 4"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect width="74" height="4" rx="2" fill="currentColor" />
-            </svg>
-
-            <ul class="content__language-info">
-              <li>
-                <p class="content__language-item">English</p>
-                <svg
-                  width="2"
-                  height="14"
-                  viewBox="0 0 2 14"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="2" height="14" fill="currentColor" />
-                </svg>
-                <p class="content__language-lvl">level A1</p>
-              </li>  
-              
-              <li>
-                <p class="content__language-item">Russian</p>
-                <svg
-                  width="2"
-                  height="14"
-                  viewBox="0 0 2 14"
-                  fill="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="2" height="14" fill="currentColor" />
-                </svg>
-                <p class="content__language-lvl">Native</p>
-              </li>
-            </ul>
           </div>
         </section>
       </main>

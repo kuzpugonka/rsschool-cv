@@ -187,12 +187,13 @@ li {
 .bar {
   min-width: 242px;
   background: var(--aside-bg);
-  padding: 30px 20px 0 16px;
+  padding: 30px 20px 30px 16px;
   display: flex;
   flex-direction: column;
   gap: 40px;
   color: var(--content-bg);
 }
+
 .bar__contacts {
   display: flex;
   flex-direction: column;
@@ -229,9 +230,6 @@ li {
 .bar__cource-date {
   font-weight: 400;
   text-transform: capitalize;
-}
-.bar__scills {
-  margin-bottom: 30px;
 }
 .bar__scill {
   padding-top: 16px;
@@ -297,17 +295,24 @@ li {
 .project__info {
   padding-top: 8px;
 }
-.content__language {
-  padding-top: 30px;
-}
-.content__language-info {
-  padding-top: 16px;
+
+.bar__language-info {
   display: flex;
-  gap: 12px;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 16px;
   font-weight: 500;
 }
-.content__language-item {
+.bar__language-item {
+  display: flex;
+  gap: 12px;
+}
+  .bar__language-name {
   letter-spacing: -0.05em;
+  width: 42px;
+}
+.bar__language-lvl {
+  text-transform: capitalize;
 }
 
 .footer {
