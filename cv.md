@@ -8,7 +8,7 @@
 [Email](mailto:kuzpugonka@xmail.ru)
 
 ## About me
-I love the layout of websites and applications. I want to make friends with carousels and speed up the pace of work on projects. I drink buckets of coffee and watch anime.
+I love the layout of websites and applications. I want to make friends with carousels and speed up the pace of work on projects. Web application architecture design skills, adaptive and cross-browser layout. I drink buckets of coffee and watch anime.
 
 ## Skills
 • HTML • CSS • SCSS • JavaScript • Git • Bootstrap • jQuery • Vue.js • React
