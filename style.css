@@ -65,9 +65,10 @@
   box-sizing: border-box;
 }
 body {
+  position: relative;
   margin: 0 auto;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #cdad94;
   background-image: image-set(
     url(./img/bg.png) 1x,
@@ -96,9 +97,30 @@ svg {
   display: block;
   fill: currentColor;
 }
+li {
+  list-style-type: none;
+}
+
+.nav {
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 22px;
+  width: 763px;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  color: var(--aside-text);
+  text-transform: uppercase;
+}
+
 .wrap {
   width: 763px;
-  margin: 80px auto;
+  margin: 50px auto;
   box-shadow: 50px 30px 40px 0 rgba(0, 0, 0, 0.25);
   background: var(--content-bg);
 }
