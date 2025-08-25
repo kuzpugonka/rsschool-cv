@@ -1,17 +1,23 @@
 ```<h1>Hello,World!</h1>```
-# Iliasova Sofia Alekseevna 
-![own photo](./for-cv.jpg)
+### Junior Frontend Developer
+# Terekhova Sofia Alekseevna 
+![own photo](./img/for-cv.jpg)
 
 ##  Contacts
-[Telegram](https://t.me/kuzpugonka)
-[Discord](https://discord.com/users/kuzpugonka)
-[Email](mailto:kuzpugonka@xmail.ru)
-
+* Location: Tambov, Russian Federation
+* Phone: +7 910 6599255
+* Telegram: [kuzpugonka](https://t.me/kuzpugonka)
+* Discord: [kuzpugonka](https://discord.com/users/kuzpugonka)
+* Email: [kuzpugonka](mailto:kuzpugonka@xmail.ru)
+* GitHub:  [kuzpugonka](https://github.com/kuzpugonka)
+  
 ## About me
 I love the layout of websites and applications. I want to make friends with carousels and speed up the pace of work on projects. Web application architecture design skills, adaptive and cross-browser layout. I drink buckets of coffee and watch anime.
 
 ## Skills
-• HTML • CSS • SCSS • JavaScript • Git • Bootstrap • jQuery • Vue.js • React
+• HTML • CSS • SCSS • JavaScript Basics • Git, GitHub • Bootstrap • jQuery • Vue.js • React
+
+## Code example
 
 ## Experience
 
@@ -68,10 +74,11 @@ The finished [site](https://kuzpugonka.github.io/gogopizza/)
 and a few more projects.
 
 ## Education
-### In 2023
- studied at Tomsk State University on the course "Web developer from scratch to the first projects", received a certificate of advanced training of the state standard.
-### In 2008
- graduated with a red diploma from the Moscow Open Social University with a degree in pedagogical defectology.
+#### Courses:
+In 2023 studied at Tomsk State University on the course "Web developer from scratch to the first projects", received a certificate of advanced training of the state standard.
+#### University:
+In 2008 graduated with a red diploma from the Moscow Open Social University with a degree in pedagogical defectology.
 
 ## Language
-School English (British) language course. level A1. I read and translate with a dictionary.
+* Russian -- native speaker.
+* School English (British) language course. Level A1. I read and translate with a dictionary.
