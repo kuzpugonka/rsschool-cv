@@ -18,7 +18,22 @@ I love the layout of websites and applications. I want to make friends with caro
 • HTML • CSS • SCSS • JavaScript Basics • Git, GitHub • Bootstrap • jQuery • Vue.js • React
 
 ## Code example
-
+#### Task
+Given an integral number, determine if it's a square number.
+#### Solution
+```
+1 const isSquare = (n) => {
+2   if (n < 0) {
+3     return false;
+4   };
+5   
+6   if (Number.isInteger(Math.sqrt(n))) {
+7     return true;
+8    } else {
+9      return false;
+10   };
+11 }
+```
 ## Experience
 
 ### 1. I am currently working on the Funny Little Animals Pet project.
